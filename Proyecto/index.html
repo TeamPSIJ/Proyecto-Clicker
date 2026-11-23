@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Programmer Clicker</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="pantalla-juego">
+        <!-- 1. Fila superior -->
+        <header class="barra-superior">
+
+        </header>
+
+        <!-- 2. Zona media: Mejoras (izquierda) + Minijuego Café completo (derecha) -->
+        <section class="zona-media">
+            <main class="zona-mejoras">
+                <h2>Zona de las mejoras</h2>
+                <p id="CodeLine">Líneas de Código: 0</p>
+            </main>
+
+            <aside class="minijuego-cafe">
+                <span>Minijuego Café</span>
+            </aside>
+        </section>
+
+        <!-- 3. Zona inferior: Minijuego Teclado (izquierda) + Ratón/Click (derecha) -->
+        <footer class="zona-inferior">
+            <div class="minijuego-teclado">
+                <span>Minijuego Teclado</span>
+            </div>
+
+            <div class="zona-click">
+                <button type="button" id="miBoton">
+                    <img id="spriteMouse" src="Sprites/Mouseclick UI (32x32)/Mouse1.png" alt="Click">
+                </button>
+                <span>Click</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="principal.js"></script>
+</body>
+
+</html>
